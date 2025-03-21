@@ -1,13 +1,17 @@
 {
-  "name": "rudhra-bot",
+  "name": "lufy",
   "version": "1.0.0",
-  "description": "Rudhra WhatsApp Bot.",
+  "description": "lufy WhatsApp Bot.",
   "main": "./index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "pm2 start . --attach --name rudhra",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "node -e \"try { require('sharp') } catch (e) { process.exit(1); }\" || yarn add --ignore-engines sharp@0.33.5",
+        "start": "pm2 start . --attach --name rudhra",
+        "stop": "pm2 stop rudhra"
   },
+    "engines": {
+        "node": ">=18.0.0 <=22.x"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/princerudh/rudhra.git"
@@ -17,7 +21,7 @@
     "rudhra",
     "whatsapp"
   ],
-  "author": "princerudh",
+  "author": "aj",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/princerudh/rudhra/issues"
