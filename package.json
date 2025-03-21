@@ -1,7 +1,7 @@
 {
-  "name": "lufy",
+  "name": "Luffy",
   "version": "1.0.0",
-  "description": "lufy WhatsApp Bot.",
+  "description": "Luffy WhatsApp Bot.",
   "main": "./index.js",
   "type": "commonjs",
   "scripts": {
@@ -14,7 +14,7 @@
     },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/princerudh/rudhra.git"
+    "url": "git+https://github.com/Azutoro/Luffy.git"
   },
   "keywords": [
     "bot",
@@ -24,15 +24,15 @@
   "author": "aj",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/princerudh/rudhra/issues"
+    "url": "https://github.com/Azutoro/Luffy/issues"
   },
-  "homepage": "https://github.com/princerudh/rudhra#readme",
+  "homepage": "https://github.com/Azutoro/Luffy#readme",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "acrcloud": "^1.4.0",
     "axios": "^1.4.0",
     "bitly": "^7.1.2",
-    "baileys": "github:princerudh/Baileys.js",
+    "baileys": "github:Abhiram-Aj/Baileys.js",
     "browser-id3-writer": "^5.0.0",
     "cheerio": "^1.0.0-rc.12",
     "dotenv": "^16.4.5",
