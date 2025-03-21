@@ -1,7 +1,7 @@
 {
-  "name": "Luffy",
+  "name": "Iris",
   "version": "1.0.0",
-  "description": "Luffy WhatsApp Bot.",
+  "description": "Iris WhatsApp Bot.",
   "main": "./index.js",
   "type": "commonjs",
   "scripts": {
@@ -14,7 +14,7 @@
     },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Azutoro/Luffy.git"
+    "url": "git+https://github.com/Azutoro/Iris.git"
   },
   "keywords": [
     "bot",
@@ -24,9 +24,9 @@
   "author": "Abhiram-Aj",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/Azutoro/Luffy/issues"
+    "url": "https://github.com/Azutoro/Iris/issues"
   },
-  "homepage": "https://github.com/Azutoro/Luffy#readme",
+  "homepage": "https://github.com/Azutoro/Iris#readme",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "acrcloud": "^1.4.0",
